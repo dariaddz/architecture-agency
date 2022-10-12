@@ -2,16 +2,25 @@
   <div class="logo">logo</div>
 
   <!-- burger button -->
-  <div id="burger-menu">
-    <span></span>
-  </div>
+  <button
+    class="menu-toggle js-open-menu"
+    aria-expanded="false"
+    aria-controls="mobile-menu"
+  >
+    <svg width="17" height="17">
+      <use href="./images/symbol-defs.svg#icon-menu_24px"></use>
+    </svg>
+  </button>
+
   <!-- burger menu - вынести в отдельный код -->
-  <div id="menu">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About Us</a></li>
-    </ul>
-  </div>
+  <div class="menu-container js-menu-container" id="mobile-menu">
+          <nav class="top-line-mobile">
+            <button class="menu-toggle js-close-menu">
+              <svg width="17" height="17">
+                <use href="./images/symbol-defs.svg#icon-close_24px"></use>
+              </svg>
+            </button>
+</div>
 </div>
 
 <!-- <article class="example" id="uk">
