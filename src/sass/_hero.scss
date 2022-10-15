@@ -1,0 +1,15 @@
+.hero{
+        background-color: $primary-background-color;
+}
+
+.hero__picture{
+background-color: $accent-background-color;
+    background-image: url('../images/hero/hero-mobile-2x.jpg');
+background-repeat: no-repeat;
+height: 150px;
+width: auto;
+}
+.socmedia{
+    background-color: $secondary-background-color;
+    height: 20px;
+}
