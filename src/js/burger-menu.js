@@ -2,11 +2,11 @@
   const mobileMenu = document.querySelector('.js-menu-container');
   const openMenuBtn = document.querySelector('.js-open-menu');
   const closeMenuBtn = document.querySelector('.js-close-menu');
+  const mobileMenuLink = document.querySelectorAll('.mobile-navigation__link');
 
   const toggleMenu = () => {
-    const isMenuOpen =
-      openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
-    openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
+    const isMenuOpen = openMenuBtn.classList.toggle('is-hidden');
+    closeMenuBtn.classList.toggle('is-hidden');
     mobileMenu.classList.toggle('is-open');
 
     const scrollLockMethod = !isMenuOpen
@@ -15,15 +15,27 @@
     bodyScrollLock[scrollLockMethod](document.body);
   };
 
+  mobileMenuLink.forEach(mobileMenuLink =>
+    mobileMenuLink.addEventListener('click', e => {
+      mobileMenu.classList.remove('is-open');
+      openMenuBtn.classList.toggle('is-hidden');
+      bodyScrollLock.enableBodyScroll(document.body);
+    })
+  );
+
+  // const closeMenu = () => {
+  //   mobileMenu.classList.remove('is-open');
+  // };
+
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
+  // mobileMenuLink.addEventListener('click', closeMenu);
 
   // Закрываем мобильное меню на более широких экранах
   // в случае изменения ориентации устройства.
   window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
     if (!e.matches) return;
     mobileMenu.classList.remove('is-open');
-    openMenuBtn.setAttribute('aria-expanded', false);
     bodyScrollLock.enableBodyScroll(document.body);
   });
 })();
