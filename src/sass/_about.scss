@@ -16,7 +16,7 @@
     font-size: 26px;
     line-height: 1.1;
 }
-.about__text{
+.about__text-item{
     margin-top: 20px;
 }
 .read-more{
@@ -36,11 +36,49 @@ text-transform: uppercase;
 cursor: pointer;
 
     // переписать медиаправило через JS 
-    // @media (min-width: 768px) {
-    //         display: none}
+    @media (min-width: 768px) {
+            display: none}
 
-                          &:hover,
-                          &:focus{
-                            font-weight: 700;
-                                  }
+     &:hover,
+     &:focus{
+     font-weight: 700;
+     }
+}
+
+.about__statistics{
+margin-top: 30px;
+}
+
+.stat-item{
+text-align: center;
+margin-bottom: 10px;
+// margin-top: 10px
+
+
+}
+
+.stat-item:not(:last-child):after {
+    content: ' ';
+    display:block;
+    // text-align: center;
+    margin: 10px auto 0 auto;
+    height: 5px;
+    width: 5px;
+    // height: 100%;
+    // border: 1px solid $accent-background-color;
+    background-color: $accent-background-color;
+}
+
+.stat-number{
+font-family:$title-font;
+       font-weight: 700;
+       font-size: 36px;
+    line-height: .86
+}
+
+.stat-text{
+    text-transform: uppercase;
+        color: $accent-background-color;
+        font-family: $main-font;
+        font-size: 8px;
 }
