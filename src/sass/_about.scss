@@ -19,3 +19,28 @@
 .about__text{
     margin-top: 20px;
 }
+.read-more{
+    display: flex;
+    // justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 10px;
+text-transform: uppercase;
+    color: $accent-background-color;
+    font-family: $main-font;
+    font-size: 8px;
+    font-weight: 400;
+    padding: 0;
+        border: none;
+        background-color: transparent;
+cursor: pointer;
+
+    // переписать медиаправило через JS 
+    // @media (min-width: 768px) {
+    //         display: none}
+
+                          &:hover,
+                          &:focus{
+                            font-weight: 700;
+                                  }
+}
