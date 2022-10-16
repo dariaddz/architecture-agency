@@ -1,5 +1,6 @@
 .gallery{
 background-image: linear-gradient($secondary-background-color 35%, $light-background-color 0);
+padding-bottom: 30px;
 }
 
 .gallery__carousel {
@@ -13,7 +14,8 @@ background-image: linear-gradient($secondary-background-color 35%, $light-backgr
     height: 75vh;
     scroll-snap-type: both mandatory;
     scroll-padding: 1rem;
-}
+
+   }
 
 .active {
     scroll-snap-type: unset;
@@ -26,7 +28,7 @@ background-image: linear-gradient($secondary-background-color 35%, $light-backgr
     display: inline-block;
     border-radius: 3px;
     font-size: 0;
-    // height: 220px;
+   
 }
 
 .gallery__image{
@@ -79,3 +81,12 @@ text-align: center;
     text-transform: uppercase;
     
 }
+
+ .square{
+        content: '';
+    display:block;
+    margin: 20px auto 0 auto;
+        height: 11px;
+        width: 11px;
+        background-color: $primary-background-color;
+    }
