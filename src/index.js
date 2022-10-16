@@ -1,1 +1,2 @@
-import './js/burger-menu';
+import './js/mobile-menu';
+import './js/gallery';
