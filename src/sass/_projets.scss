@@ -1,14 +1,14 @@
 .projects{
     background-color: $secondary-background-color;
     padding-top: 35px;
-    padding-bottom: 35px;
-}
+   }
 
 .projects__list{
     // display:flex;
     // flex-wrap: wrap;
     display: block;
     text-align: center;
+    margin-bottom: 35px;
 }
 .projects__item{
     fill:$dark-text-color;
@@ -29,3 +29,26 @@
     // border: 1px solid $accent-background-color;
     background-color: $accent-background-color;
 }
+
+.dark-logo{
+    background-color: $dark-background-color;
+    height: 64px;
+
+// //    display: flex;
+//      vertical-align: bottom;
+// //  display: block;
+    }
+
+//     .span{
+//         //  display: block;
+//    vertical-align: bottom;
+//    color:white
+//     }
+//     .dark-logo__img{
+//     width: 80px;
+//     height: 21px;
+//     margin-left: 20px;
+   
+//     }
+
+
