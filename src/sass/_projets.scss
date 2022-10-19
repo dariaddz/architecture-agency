@@ -34,21 +34,29 @@
     background-color: $dark-background-color;
     height: 64px;
 
-// //    display: flex;
+   display: flex; 
+//    justify-content: flex-end;
+//    align-content: flex-end;
 //      vertical-align: bottom;
-// //  display: block;
+//  display: block;
     }
 
 //     .span{
-//         //  display: block;
-//    vertical-align: bottom;
-//    color:white
+//          display: block;
+// //    vertical-align: bottom;
+//    color:white;
+//    margin-top:auto;
+//    margin-bottom: 0;
+//        margin-left: 20px;
+//     //    align-content: flex-end;
 //     }
-//     .dark-logo__img{
+    .dark-logo__img{
 //     width: 80px;
 //     height: 21px;
-//     margin-left: 20px;
-   
-//     }
+    margin-left: 20px;
+   margin-top:auto;
+   margin-bottom: 20px;
+
+    }
 
 
