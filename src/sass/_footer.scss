@@ -1,13 +1,15 @@
 .footer{background-color: $primary-background-color;
  position:relative;
+ height:95px;
 }
 .footer__subscribe{
     // position:relative;
-    margin:auto 20px auto 20px;
+    margin-right: 20px;
+    margin-left: 20px;
     padding-right: 20px;
      padding-left: 20px;
     height:110px;
-    width: 80vw;
+    width: 82vw;
     // min-width: 280px;
     // max-width: 767px;
     background-color: $accent-background-color;
@@ -55,5 +57,45 @@ width:215px;
     color:$light-text-color;
     text-transform: uppercase;
     font-size: 8px;
-          letter-spacing: 2.76px
+          letter-spacing: 2.76px;
+          cursor: pointer;
+
+          &:hover,
+&:focus{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+}
+
+.footer__references{
+   margin-right: 20px;
+    margin-left: 20px;
+    background-color: $primary-background-color;
+    height: 40px;
+        color:$light-text-color;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.refs__list{
+    display: flex
+}
+.refs__items,
+.refs__items a,
+.powered{
+    display: block;
+      text-transform: uppercase;
+    font-size: 7px;
+    color:$light-text-color;
+letter-spacing: 2.76px;
+}
+
+
+.refs__items:not(:last-child) {
+  margin-right: 10px}
+
+  .powered{
+       font-size: 5px;
+       text-align: right;
+  }
