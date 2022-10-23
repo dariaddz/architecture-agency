@@ -1,6 +1,11 @@
 .about{
     background-color: $secondary-background-color;
     padding: 40px;
+
+     @media (min-width: 768px) {
+             padding-left: 70px;
+    padding-right: 70px;
+     }
    
 }
 
@@ -48,6 +53,12 @@ cursor: pointer;
 
 .about__statistics{
 margin-top: 30px;
+ @media (min-width: 768px) {
+            display: flex;
+            justify-content: space-between;
+    //     padding-left: 30px;
+    // padding-right: 30px;
+}
 }
 
 .stat-item{
@@ -58,18 +69,21 @@ margin-bottom: 10px;
 
 }
 
-.stat-item:not(:last-child):after {
-    content: ' ';
+.stat-item:after {
+        content: ' ';
     display:block;
-    // text-align: center;
     margin: 10px auto 0 auto;
     height: 5px;
     width: 5px;
-    // height: 100%;
-    // border: 1px solid $accent-background-color;
     background-color: $accent-background-color;
 }
 
+   .stat-item:last-child:after{
+      @media (max-width: 767px) {
+     display: none;
+    }       
+    
+        }
 .stat-number{
 font-family:$title-font;
        font-weight: 700;
