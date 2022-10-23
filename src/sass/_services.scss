@@ -9,11 +9,20 @@
    display: flex;
     flex-wrap: wrap;
      justify-content: center;
+
+     @media (min-width: 1024px) {
+   padding-left: 68px;
+    padding-right: 68px;}
 }
 .list-item{
     text-align: left;
      margin-bottom: 30px;
      width: 295px;
+
+     @media (min-width: 1024px) {
+    margin-right: 65px;
+    font-size: 17px;
+    }      
 }
 .services-header{
     display:flex;
