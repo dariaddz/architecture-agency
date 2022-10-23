@@ -66,12 +66,20 @@
 .mobile-navigation{
     display: flex;
     flex-direction: column;
+    @media (min-width: 1024px) {
+         flex-direction:row;
+         font-family:$main-font;
+         
+    }
  
 }
 .mobile-navigation__item{
 margin-left: auto;
     margin-right: auto;
-
+   @media (min-width: 1024px) {
+      display: flex;
+    // vertical-align: middle;
+    }
 }
 
 .mobile-navigation__link{
@@ -81,7 +89,17 @@ margin-left: auto;
     &:hover,
  &:focus{
     color: $dark-background-color;
-  
-}
+  }
+
+     @media (min-width: 1024px) {
+              font-family:$main-font;
+     font-size: 11px;
+     letter-spacing: 2.76px;
+     margin-left: 37px;
+    margin-top: auto;
+    margin-bottom: auto;
+    //  display: block;
+    //   vertical-align: middle;
+    }
 }
 
