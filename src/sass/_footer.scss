@@ -32,6 +32,11 @@ min-width:215px;
        width:65vw; 
     }
 
+    
+       @media (min-width: 1024px) {
+          width:75vw;
+       }
+
    &:focus{
              border-radius: 0;
              border:1px solid $accent-background-color;

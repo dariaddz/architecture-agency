@@ -16,7 +16,7 @@
 }
 
 .list-item:nth-child(3n+3) {
-         @media (min-width: 1024px) {    color: red;
+         @media (min-width: 1024px) {    
        margin-right: 0}
 
 }
@@ -46,11 +46,21 @@ max-width: 295px;
     font-weight: 700;
      line-height: 1.2;
      margin-bottom: 30px;
+
+      @media (min-width: 1024px) {
+            font-size: 53px;
+        }
 }
 
 .item-title{
     margin-left: 17px;
     text-align: left;
+}
+
+.title{
+     @media (min-width: 1024px) {
+            font-size: 26px;
+        }
 }
 
 .item-description{
@@ -68,7 +78,10 @@ font-size: 8px;
 color: $light-text-color;
  @media (min-width: 1024px) {
 width:392px;
-height: 68px;}
+height: 68px;
+font-size: 12px;
+margin-top: 122px;
+margin-bottom: 107px;}
 
 &:hover,
 &:focus{

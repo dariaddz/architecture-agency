@@ -138,7 +138,11 @@ margin-bottom: 10px;
 font-family:$title-font;
        font-weight: 700;
        font-size: 36px;
-    line-height: .86
+    line-height: .86;
+
+     @media (min-width: 1024px) {
+            font-size: 60px;
+        }
 }
 
 .stat-text{

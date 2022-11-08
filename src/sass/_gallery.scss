@@ -97,4 +97,6 @@ text-align: center;
         height: 11px;
         width: 11px;
         background-color: $primary-background-color;
+         @media (min-width: 1024px) {
+margin-top:20px;}
     }
