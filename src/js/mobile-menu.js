@@ -2,7 +2,7 @@
   const mobileMenu = document.querySelector('.js-menu-container');
   const openMenuBtn = document.querySelector('.js-open-menu');
   const closeMenuBtn = document.querySelector('.js-close-menu');
-  const mobileMenuLink = document.querySelectorAll('.mobile-navigation__link');
+  const mobileMenuLink = document.querySelectorAll('.navigation__link');
 
   const toggleMenu = () => {
     const isMenuOpen = openMenuBtn.classList.toggle('is-hidden');

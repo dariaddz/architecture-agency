@@ -63,17 +63,23 @@
     background-color: $accent-background-color;
 }
 
-.mobile-navigation{
+.navigation{
     display: flex;
     flex-direction: column;
+   
+ 
+}
+
+.header-navigation,
+.footer-navigation{ 
+    display:none;
     @media (min-width: 1440px) {
+          display: flex;
          flex-direction:row;
          font-family:$main-font;
          
-    }
- 
-}
-.mobile-navigation__item{
+    }}
+.navigation__item{
 margin-left: auto;
     margin-right: auto;
    @media (min-width: 1440px) {
@@ -82,7 +88,7 @@ margin-left: auto;
     }
 }
 
-.mobile-navigation__link{
+.navigation__link{
     color: $light-text-color;
     font-family: $title-font;
     font-size: 40px; 
