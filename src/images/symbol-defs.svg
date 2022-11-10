@@ -1,5 +1,5 @@
 <svg aria-hidden="true" style="position:absolute;width:0;height:0" xmlns="http://www.w3.org/2000/svg" overflow="hidden"><defs>
-<symbol id="icon-close_24px" viewBox="0 0 32 32"><path fill="#fff"   d="M31.439 3.166L28.273 0 15.72 12.553 3.167 0 .001 3.166l12.553 12.553L.001 28.272l3.166 3.166L15.72 18.885l12.553 12.553 3.166-3.166-12.553-12.553L31.439 3.166z"/></symbol>
+<symbol id="icon-close_24px" viewBox="0 0 32 32"><path  d="M31.439 3.166L28.273 0 15.72 12.553 3.167 0 .001 3.166l12.553 12.553L.001 28.272l3.166 3.166L15.72 18.885l12.553 12.553 3.166-3.166-12.553-12.553L31.439 3.166z"/></symbol>
 <symbol id="icon-menu_24px" viewBox="0 0 48 32"><path d="M0 5.333V0h48v5.333H0zm0 13.334h48v-5.333H0v5.333zM0 32h48v-5.333H0V32z"/></symbol>
 <symbol id="icon-check" viewBox="0 0 42 32"><path fill="var(--color1, #fff)" stroke="var(--color1, #fff)" stroke-width=".64" d="M6.263 15.205l-.22-.21-3.307 3.132 11.651 11.114L38.864 5.89l-3.285-3.134-21.192 20.197-8.124-7.75z"/></symbol>
 <symbol id="icon-email-black" viewBox="0 0 32 32"><path d="M26.667 5.333H5.334A2.663 2.663 0 002.681 8l-.013 16c0 1.467 1.2 2.667 2.667 2.667h21.333c1.467 0 2.667-1.2 2.667-2.667V8c0-1.467-1.2-2.667-2.667-2.667zM26.133 11l-9.427 5.893a1.346 1.346 0 01-1.413 0L5.866 11a1.132 1.132 0 111.2-1.92l8.933 5.587 8.933-5.587a1.132 1.132 0 111.2 1.92z"/></symbol>
