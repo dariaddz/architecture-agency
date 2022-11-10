@@ -14,7 +14,7 @@ padding-bottom: 30px;
     // height: 75vh;
     scroll-snap-type: both mandatory;
     scroll-padding: 1rem;
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
     grid-template-columns: repeat(10, 30vw);
 }
    }
@@ -97,6 +97,6 @@ text-align: center;
         height: 11px;
         width: 11px;
         background-color: $primary-background-color;
-         @media (min-width: 1024px) {
+         @media (min-width: 1440px) {
 margin-top:20px;}
     }

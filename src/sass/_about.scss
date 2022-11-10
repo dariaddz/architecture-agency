@@ -38,7 +38,7 @@
     font-family: $main-font;
     font-size: 8px;
     font-weight: 400;
- @media (min-width: 1024px) {
+ @media (min-width: 1440px) {
           font-size: 11px;  
      }
 
@@ -51,7 +51,7 @@
 }
 .about__text-item{
     margin-top: 20px;
-        @media (min-width: 1024px) {
+        @media (min-width: 1440px) {
             font-size: 17px;
         }
 }
@@ -83,7 +83,7 @@ cursor: pointer;
 
 .news{
     display: none;
-       @media (min-width: 1024px) {
+       @media (min-width: 1440px) {
             display: flex;
          width: calc((100% - 100px)/3);}
 }
@@ -105,7 +105,7 @@ margin-top: 30px;
     //     padding-left: 30px;
     // padding-right: 30px;
 }
- @media (min-width: 1024px) {
+ @media (min-width: 1440px) {
    padding-left: 68px;
     padding-right: 68px;
 margin-top: 60px;}
@@ -140,7 +140,7 @@ font-family:$title-font;
        font-size: 36px;
     line-height: .86;
 
-     @media (min-width: 1024px) {
+     @media (min-width: 1440px) {
             font-size: 60px;
         }
 }
@@ -150,7 +150,7 @@ font-family:$title-font;
         color: $accent-background-color;
         font-family: $main-font;
         font-size: 8px;
-            @media (min-width: 1024px) {
+            @media (min-width: 1440px) {
             font-size: 12px;
         }
 }
