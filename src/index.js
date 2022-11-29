@@ -3,3 +3,4 @@ import './js/gallery';
 import './js/top-button';
 import './js/modal';
 import './js/subscribe';
+import './js/read-more';
