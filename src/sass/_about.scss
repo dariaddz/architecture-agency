@@ -16,10 +16,14 @@
 }
 
 .about-block{
-    margin-right: 100px;
-    width: calc((100% - 100px)*2/3);
-
+   
+    width: 100%;
+ @media (min-width: 1440px) {
+          margin-right: 100px; 
+     }
 }
+
+
 
 .title-box{
     width: 180px;
